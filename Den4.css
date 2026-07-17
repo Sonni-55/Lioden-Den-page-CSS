@@ -1,3 +1,5 @@
+/*tausta*/
+
 body {
     background-image: url('https://i.postimg.cc/mt07C52S/lioden-wardrobe-(1)-(21).png');
     background-attachment: fixed;
@@ -16,6 +18,24 @@ border-style: none !important;
 border-radius: 20px !important;
 box-shadow: none;
 }
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #d0cabae8 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #645133 !important;
+box-shadow: none !important;
+text-shadow: none !important;
+}
+
+/*pagedoll*/
 
 .container.main::before {
     content: ""; 
