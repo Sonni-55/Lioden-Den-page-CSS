@@ -1,18 +1,12 @@
-.main::after{
-content:"";
-position:fixed;
-
-bottom:0px;
-left:40%;
-
-width:700px;
-height:1000px;
-
-margin-left:600px;
-
-background:url("<a href='https://postimg.cc/CZfvgqrk' target='_blank'><img src='https://i.postimg.cc/CZfvgqrk/Untitled223-20260717141146.png' border='0' alt='Untitled223-20260717141146'></a>") no-repeat bottom center;
-background-size:contain;
-
-pointer-events:none;
-z-index:100;
-}
+.container.main::before {
+background-image: url('https://i.postimg.cc/CZfvgqrk/Untitled223-20260717141146.png');
+background-size: contain;
+background-repeat: no-repeat;
+position: fixed;
+display: block;
+height:250px;
+width:250px;
+right:-0px;
+bottom: -10px;
+z-index: 100;
+pointer-events: none;
