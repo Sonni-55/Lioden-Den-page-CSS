@@ -13,7 +13,7 @@ body {
     color: #000;
 }
 
-/* 2. VAIN PÄÄPANEELI LÄPIKUULTAVAKSI + TAUSTAKUVIO */
+/* 2. PÄÄPANEELI LÄPIKUULTAVAKSI + TAUSTAKUVIO */
 .container.main {
     background: linear-gradient(#ffe2a680, #ffe2a680), 
                 url('https://i.imgur.com/mDOHj1k.png') !important;
@@ -22,23 +22,23 @@ body {
     box-shadow: 0 0 4px #000;
 }
 
-/* 3. VARMISTUS: Pidetään kaikki sisällä olevat tietolaatikot peittävinä */
+/* 3. KORJAUS: Nollataan vain ne tasot, jotka estävät läpinäkyvyyden näkymisen */
+.col-md-9, 
+.col-md-3, 
+.white {
+    background: transparent !important; /* Tekee taustasta näkymättömän, jotta pääpaneeli kuultaa läpi */
+    border: none !important;
+}
+
+/* 4. ALKUPERÄISET VÄRIT: Varmistetaan, ettei mikään koodi muuta leijonalaatikoita */
 .panel, 
 .table, 
 .cave-grid, 
 .mound-grid, 
-.feature,
-.col-md-3 .panel {
-    background: #ffe2a6 !important; /* Kiinteä, täysin peittävä versio samasta sävystä */
-    opacity: 1 !important;          /* Varmistaa, ettei mikään sisäpuolella oleva haalistu */
+.feature {
+    /* Tässä ei ole background-määrittelyä, joten peli käyttää omia alkuperäisiä värejään! */
+    opacity: 1 !important; 
 }
-
-/* Taulukon vasen puoli siistiksi */
-.table .left {
-    background: none !important;
-    border-radius: 0px;
-}
-
 
 /*pagedoll*/
 
