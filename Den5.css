@@ -1,0 +1,29 @@
+/*tausta*/
+
+.container.main {
+    /* Läpinäkyvä tausta ja kuva */
+    background: linear-gradient(#ffe2a680, #ffe2a680), 
+                url('https://i.imgur.com/mDOHj1k.png') !important;
+    
+    border: 0px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #000;
+}
+
+
+/*pagedoll*/
+
+.container.main::before {
+    content: ""; 
+    background-image: url('https://i.postimg.cc/CZfvgqrk/Untitled223-20260717141146.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    display: block;
+    height: 325px;
+    width: 325px;
+    right: 0px;
+    bottom: 10px;
+    z-index: 100;
+    pointer-events: none;
+}
