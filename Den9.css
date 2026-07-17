@@ -44,13 +44,13 @@ body {
 
 .container.main::before {
     content: ""; 
-    background-image: url('https://i.postimg.cc/CZfvgqrk/Untitled223-20260717141146.png');
+    background-image: url('https://postimg.cc/dhzDV5KS');
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
     display: block;
-    height: 325px;
-    width: 325px;
+    height: 400px;
+    width: 400px;
     right: 0px;
     bottom: 10px;
     z-index: 100;
