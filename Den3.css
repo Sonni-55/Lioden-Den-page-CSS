@@ -24,16 +24,11 @@ background: none;
 border-radius: 0px;
 }
 
-input,
-select,
-textarea {
-background: #d0cabae8 !important;
-border: none !important;
-border-radius: 15px !important;
-color: #645133 !important;
-box-shadow: none !important;
-text-shadow: none !important;
-}
+@media screen and (max-width: 600px){
+body {
+background: #ffe2a680;
+background-size: cover;
+color: #ffe2a680; } }
 
 /*pagedoll*/
 
