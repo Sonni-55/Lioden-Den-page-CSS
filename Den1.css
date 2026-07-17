@@ -1,3 +1,13 @@
+body {background: url('https://i.postimg.cc/mt07C52S/lioden-wardrobe-(1)-(21).png') 
+    fixed;background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;}
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000
+}
+
+
 .container.main::before {
     content: ""; 
     background-image: url('https://i.postimg.cc/CZfvgqrk/Untitled223-20260717141146.png');
