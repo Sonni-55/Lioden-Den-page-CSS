@@ -1,7 +1,7 @@
 
 /*pagedoll*/
 
-.container.main::before {
+.container.main::after {
     content: ""; 
     background-image: url('https://i.postimg.cc/9Q626GxP/Untitled228-20260718172314.png');
     background-size: contain;
